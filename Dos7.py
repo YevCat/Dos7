@@ -18,7 +18,7 @@ def proceed():
             print("Enjoy")
 
             
-            num_requests = input("Request Number:")
+            num_requests = 10000
 
         
             def send_request():
