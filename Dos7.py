@@ -4,7 +4,7 @@ import threading
 def proceed():
     while True:
         decision = input("Wanna Starting?(Y/N): ").strip().lower()
-        if decision == 'e':
+        if decision == 'y':
             print("Welcome To Yev Group Dos7 System... Wait 6 Seconds")
             time.sleep(6)
             print("DDoS System Starting...")
@@ -41,7 +41,7 @@ def proceed():
                 thread.join()
 
             break
-        elif decision == 'h':
+        elif decision == 'n':
             print("System Closed")
             break
         else:
