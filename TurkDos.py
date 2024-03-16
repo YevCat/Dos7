@@ -18,7 +18,7 @@ def proceed():
             print("Saldırı Başladı")
 
             
-            num_requests = 10000
+            num_requests = input("Saldırı Sayısı:")
 
         
             def send_request():
