@@ -18,7 +18,7 @@ def proceed():
             print("Saldırı Başladı")
 
             
-            num_requests = input("Saldırı Sayısı:")
+            num_requests = 10000
 
         
             def send_request():
@@ -45,7 +45,7 @@ def proceed():
             print("İşlem iptal edildi.")
             break
         else:
-            print("Geçersiz giriş. Lütfen 'y' veya 'n' girin.")
+            print("Geçersiz giriş. Lütfen 'e' veya 'h' girin.")
 
 
 proceed()
